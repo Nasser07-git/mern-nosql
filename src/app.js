@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 
 const cors = require('cors');
 const corsOptions ={
-    origin:'https://aesthetic-panda-a4f7a3.netlify.app/', 
+    origin:'https://aesthetic-panda-a4f7a3.netlify.app', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
